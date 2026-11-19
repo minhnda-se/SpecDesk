@@ -337,7 +337,7 @@ export class ReportService {
     </div>
 
     <div class="footer">
-      Generated automatically by Playwright Embedded Studio • 100% Offline Air-Gapped Report
+      Generated automatically by SpecDesk • 100% Offline Air-Gapped Report
     </div>
   </div>
 </body>

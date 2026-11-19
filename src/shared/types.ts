@@ -1,5 +1,5 @@
 /**
- * Playwright Embedded Studio - Universal Shared Type Contracts
+ * SpecDesk - Universal Shared Type Contracts
  */
 
 export interface IAppInfo {

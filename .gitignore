@@ -22,9 +22,17 @@ node_modules/
 # Production build outputs
 dist/
 dist-electron/
-release/
 dist-release/
+release/
 out/
+
+# Local test & runtime artifacts
+test-workspace/
+.recents.json
+
+# Internal & daily working plans (not pushed to public repo)
+docs/plans/local/*
+!docs/plans/local/.gitkeep
 
 # Environment files
 .env

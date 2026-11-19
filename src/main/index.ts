@@ -20,7 +20,7 @@ function createWindow(): void {
     minHeight: 700,
     show: false,
     backgroundColor: '#090d16',
-    title: 'Playwright Embedded Studio',
+    title: 'SpecDesk',
     titleBarStyle: 'hidden',
     titleBarOverlay: {
       color: '#090d16',
@@ -86,7 +86,7 @@ function registerAppIpc(): void {
 // App lifecycle
 app.whenReady().then(() => {
   // Set app user model id for windows
-  electronApp.setAppUserModelId('com.playwright.embedded.studio');
+  electronApp.setAppUserModelId('com.specdesk.app');
 
   // Default open or close DevTools by F12 in dev
   // and ignore CommandOrControl + R in production.

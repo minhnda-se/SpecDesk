@@ -439,7 +439,7 @@ function injectInPageToolbarCode({
       bar.innerHTML = `
         <div id="__studio_tb_drag_handle" style="cursor:grab;color:#64748b;font-size:14px;letter-spacing:-1px;display:flex;align-items:center;line-height:1;" title="Drag to reposition">⠿</div>
         <span style="width:7px;height:7px;border-radius:50%;background:#10b981;display:inline-block;box-shadow:0 0 6px #10b981;"></span>
-        <span id="__studio_tb_min_title" style="font-weight:700;color:#5eead4;font-size:11px;cursor:pointer;" title="Click to expand full toolbar">⚡ Studio</span>
+        <span id="__studio_tb_min_title" style="font-weight:700;color:#5eead4;font-size:11px;cursor:pointer;" title="Click to expand full toolbar">⚡ SpecDesk</span>
         <span id="__studio_tb_min_page_badge" style="background:#1e293b;color:#94a3b8;padding:1px 6px;border-radius:4px;font-size:10px;font-family:monospace;max-width:90px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${targetPage}</span>
         <button id="__studio_tb_expand_btn" style="background:transparent;border:none;color:#5eead4;cursor:pointer;padding:2px 4px;font-size:12px;line-height:1;border-radius:4px;" title="Expand full toolbar">⛶</button>
       `;
@@ -459,7 +459,7 @@ function injectInPageToolbarCode({
         <div id="__studio_tb_drag_handle" style="cursor:grab;color:#64748b;font-size:14px;letter-spacing:-1px;display:flex;align-items:center;line-height:1;padding-right:2px;" title="Drag to reposition">⠿</div>
         <div style="display:flex;align-items:center;gap:6px;padding-right:6px;border-right:1px solid #334155;">
           <span style="width:8px;height:8px;border-radius:50%;background:#10b981;display:inline-block;box-shadow:0 0 8px #10b981;"></span>
-          <span style="font-weight:700;color:#5eead4;font-size:11px;">Studio</span>
+          <span style="font-weight:700;color:#5eead4;font-size:11px;">SpecDesk</span>
           <span id="__studio_tb_page_badge" style="background:#1e293b;color:#94a3b8;padding:2px 6px;border-radius:4px;font-size:10px;font-family:monospace;max-width:100px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${targetPage}</span>
         </div>
         <button id="__studio_tb_picker_btn" style="background:${isPickerActive ? '#059669' : '#1e293b'};color:white;border:1px solid #334155;padding:4px 10px;border-radius:8px;font-size:11px;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:4px;transition:background 0.15s ease;">

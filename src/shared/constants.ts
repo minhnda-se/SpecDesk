@@ -1,5 +1,5 @@
 /**
- * Action and Token Constants for Playwright Embedded Studio
+ * Action and Token Constants for SpecDesk
  */
 
 export const ACTION_CATEGORIES = {

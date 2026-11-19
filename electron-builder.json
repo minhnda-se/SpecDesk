@@ -1,6 +1,6 @@
 {
-  "appId": "com.playwright.embedded.studio",
-  "productName": "Playwright Embedded Studio",
+  "appId": "com.specdesk.app",
+  "productName": "SpecDesk",
   "electronDist": "node_modules/electron/dist",
   "electronVersion": "34.5.8",
   "directories": {
@@ -34,6 +34,6 @@
     "deleteAppDataOnUninstall": false,
     "createDesktopShortcut": true,
     "createStartMenuShortcut": true,
-    "shortcutName": "Playwright Embedded Studio"
+    "shortcutName": "SpecDesk"
   }
 }

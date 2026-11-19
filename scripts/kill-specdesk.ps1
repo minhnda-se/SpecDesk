@@ -1,4 +1,4 @@
-Get-Process | Where-Object { $_.Path -like "*dist-release*" -or $_.Name -like "*Playwright Embedded Studio*" } | ForEach-Object {
+Get-Process | Where-Object { $_.Path -like "*dist-release*" -or $_.Name -like "*SpecDesk*" -or $_.Name -like "*Playwright Embedded Studio*" } | ForEach-Object {
   Write-Host "Killing $($_.Id) $($_.Name)"
   Stop-Process -Id $_.Id -Force -ErrorAction SilentlyContinue
 }

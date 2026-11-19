@@ -156,7 +156,7 @@ export class WorkspaceService {
     win?: BrowserWindow | null
   ): Promise<{ canceled: boolean; path?: string }> {
     const options: Electron.OpenDialogOptions = {
-      title: 'Open Playwright Workspace Folder',
+      title: 'Open SpecDesk Workspace Folder',
       properties: ['openDirectory', 'createDirectory'],
     };
 

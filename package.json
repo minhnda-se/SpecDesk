@@ -1,9 +1,9 @@
 {
-  "name": "playwright-desktop-studio",
-  "version": "1.0.0",
-  "description": "Standalone Desktop Studio for Low-Code Playwright Automation",
+  "name": "specdesk",
+  "version": "1.5.0",
+  "description": "SpecDesk — Standalone Desktop Studio for Low-Code Playwright Automation",
   "main": "./out/main/index.js",
-  "author": "Playwright Embedded Studio Team",
+  "author": "SpecDesk Team",
   "license": "MIT",
   "scripts": {
     "format": "prettier --write .",

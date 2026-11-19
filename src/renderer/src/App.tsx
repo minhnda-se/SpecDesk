@@ -73,10 +73,10 @@ export default function App() {
             <Play className="w-3 h-3 text-slate-950 fill-slate-950 translate-x-[0.5px]" />
           </div>
           <span className="font-semibold text-xs tracking-wider uppercase text-slate-200">
-            Playwright <span className="text-emerald-400 font-bold">Embedded Studio</span>
+            Spec<span className="text-emerald-400 font-bold">Desk</span>
           </span>
           <span className="px-1.5 py-0.5 text-[10px] font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 rounded">
-            v1.0.0-standalone
+            v{appInfo?.version || '1.5.0'}
           </span>
         </div>
 
@@ -237,7 +237,7 @@ export default function App() {
                   <span>Zero-Prerequisite Standalone Automation Studio</span>
                 </div>
                 <h1 className="text-3xl font-bold tracking-tight text-white">
-                  Playwright Embedded Studio
+                  SpecDesk
                 </h1>
                 <p className="text-sm text-slate-400 max-w-2xl leading-relaxed">
                   Design, manage, and execute low-code Playwright test suites directly from pure JSON workspaces.
@@ -459,9 +459,9 @@ export default function App() {
         </div>
 
         <div className="flex items-center space-x-4 font-mono text-[10px] text-slate-500">
-          <span>Electron: <strong className="text-slate-400">{appInfo?.electronVersion || '34.2.0'}</strong></span>
-          <span>Chrome: <strong className="text-slate-400">{appInfo?.chromeVersion || '132.0.6834.196'}</strong></span>
-          <span>Node: <strong className="text-slate-400">{appInfo?.nodeVersion || '22.13.0'}</strong></span>
+          <span>Electron: <strong className="text-slate-400">{appInfo?.electronVersion || '-'}</strong></span>
+          <span>Chrome: <strong className="text-slate-400">{appInfo?.chromeVersion || '-'}</strong></span>
+          <span>Node: <strong className="text-slate-400">{appInfo?.nodeVersion || '-'}</strong></span>
         </div>
       </footer>
     </div>

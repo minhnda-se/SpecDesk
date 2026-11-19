@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 console.log('====================================================');
-console.log('🧪 PLAYWRIGHT EMBEDDED STUDIO - ENGINE INTEGRATION TEST');
+console.log('🧪 SPECDESK - ENGINE INTEGRATION TEST');
 console.log('====================================================\n');
 
 async function runTest() {
