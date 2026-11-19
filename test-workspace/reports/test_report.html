@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CLI Test Verification Report</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #f8fafc; padding: 2rem; }
+    .card { background: #1e293b; border-radius: 12px; padding: 1.5rem; max-width: 800px; margin: 0 auto; border: 1px solid #334155; }
+    .badge { padding: 4px 10px; border-radius: 9999px; font-weight: bold; font-size: 13px; }
+    .badge-passed { background: #064e3b; color: #34d399; }
+    .badge-failed { background: #881337; color: #f43f5e; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #334155; font-size: 14px; }
+    th { color: #94a3b8; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>🧪 CLI Integration Test Report</h2>
+    <p>Engine: <strong>playwright-core</strong> | Channel: <strong>chrome</strong> | Status: <span class="badge badge-passed">ALL PASSED</span></p>
+    <p>Duration: <strong>1469ms</strong> | Generated at: 9/7/2026, 11:06:32 AM</p>
+    <table>
+      <thead>
+        <tr><th>#</th><th>Action</th><th>Description</th><th>Status</th><th>Duration</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td><code>goto</code></td><td>Navigate to Example Domain</td><td><span class="badge badge-passed">PASSED</span></td><td>441ms</td></tr><tr><td>2</td><td><code>verify_visible</code></td><td>Verify main heading is visible</td><td><span class="badge badge-passed">PASSED</span></td><td>31ms</td></tr><tr><td>3</td><td><code>verify_text</code></td><td>Verify heading text equals "Example Domain"</td><td><span class="badge badge-passed">PASSED</span></td><td>2ms</td></tr><tr><td>4</td><td><code>verify_visible</code></td><td>Verify first paragraph is visible</td><td><span class="badge badge-passed">PASSED</span></td><td>2ms</td></tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
